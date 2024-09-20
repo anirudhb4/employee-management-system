@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: employee-management-application
+  datasource:
+    url:  jdbc:mysql://localhost:3306/employee?createDatabaseIfNotExist=true
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
